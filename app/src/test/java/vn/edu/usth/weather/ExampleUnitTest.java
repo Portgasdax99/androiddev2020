@@ -1,4 +1,4 @@
-package vn.edu.usth.usthweather;
+package vn.edu.usth.weather;
 
 import org.junit.Test;
 

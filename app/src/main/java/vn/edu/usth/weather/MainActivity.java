@@ -1,7 +1,6 @@
-package vn.edu.usth.usthweather;
+package vn.edu.usth.weather;
 
 import androidx.appcompat.app.AppCompatActivity;
-
 import android.os.Bundle;
 
 public class MainActivity extends AppCompatActivity {
