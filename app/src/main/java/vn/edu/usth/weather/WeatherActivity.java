@@ -7,39 +7,43 @@ import android.util.Log;
 
 public class WeatherActivity extends AppCompatActivity {
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_weather);
         Log.i("Info", "onCreate() method here!!!");
 
+        String str = "Hello Andoird";
+        Log.d("traingin Andoird",str);
+
     @Override
     protected void onStart() {
         super.onStart();
-        Log.i("Info", "onStart() method here!!!");
+        Log.i("Info", "onStart() ");
     }
 
     @Override
     protected void onResume() {
         super.onResume();
-        Log.i("Info", "onResume() method here!!!");
+        Log.i("Info", "onResume()!!!");
     }
 
     @Override
     protected void onPause() {
         super.onPause();
-        Log.i("Info", "onPause() method here!!!");
+        Log.i("Info", "onPause() !!");
     }
 
     @Override
     protected void onStop() {
         super.onStop();
-        Log.i("Info", "onStop() method here!!!");
+        Log.i("Info", "onStop()!!!");
     }
 
     @Override
     protected void onDestroy() {
         super.onDestroy();
-        Log.i("Info", "onDestroy() method here!!!");
+        Log.i("Info", "onDestroy()!!");
     }
 }
