@@ -13,9 +13,7 @@ public class WeatherActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_weather);
         Log.i("Info", "onCreate() method here!!!");
-
-        String str = "Hello Andoird";
-        Log.d("traingin Andoird",str);
+    }
 
     @Override
     protected void onStart() {
