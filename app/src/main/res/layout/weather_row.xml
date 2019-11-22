@@ -12,6 +12,7 @@
         <ImageView
             android:layout_width="48dp"
             android:layout_height="48dp"
+            android:id="@+id/image_id"
             android:src="@drawable/sunny" />
 
         <LinearLayout
@@ -24,6 +25,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="24dp"
                 android:gravity="center_vertical"
+                android:id="@+id/weather_mood"
                 android:text="Partly_Cloudy" />
             <TextView
                 android:layout_width="match_parent"
