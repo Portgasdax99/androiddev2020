@@ -4,6 +4,11 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 import android.util.Log;
+import android.view.View;
+import android.widget.TableLayout;
+
+import androidx.viewpager.widget.ViewPager;
+
 
 public class WeatherActivity extends AppCompatActivity {
 
@@ -13,10 +18,17 @@ public class WeatherActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_weather);
         Log.i("Info", "onCreate() method here!!!");
-
+        //create new fragment to be place in activity
         ForecastFragment firstFragment = new ForecastFragment();
-        getSupportFragmentManager().beginTransaction().add(R.id.container, firstFragment).commit();
-
+        //Add fragment to the  'container'
+//        getSupportFragmentManager().beginTransaction().add(R.id.container, firstFragment).commit();
+        HomeFragmentPagerAdapter adapter = new HomeFragmentPagerAdapter(getSupportFragmentManager());
+        ViewPager viewPager = (ViewPager) findViewById(R.id.view_page);
+        viewPager.setOffscreenPageLimit(3);
+        viewPager.setAdapter(adapter);
+        // Give the TabLayout the ViewPager
+        TableLayout tableLayout = (TableLayout) findViewById(R.id.tab_layout);
+        tableLayout.setupWithViewPager(viewPager);
 
     }
 

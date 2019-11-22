@@ -8,18 +8,17 @@
     android:orientation="vertical"
     android:background="@drawable/gradient"
     tools:context=".WeatherActivity">
-    
-    <fragment
+
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/tab_layout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:name="vn.edu.usth.weather.WeatherFragment"
-        android:layout_margin="14dp"
-        android:layout_marginBottom="0dp"/>
-    <fragment
+        android:background="@color/gradient.xml"/>
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/view_pager"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="14dp"
-        android:layout_marginBottom="0dp"
-        android:name="vn.edu.usth.weather.ForecastFragment"/>
+        android:layout_height="wrap_content"/>
 
 </LinearLayout>

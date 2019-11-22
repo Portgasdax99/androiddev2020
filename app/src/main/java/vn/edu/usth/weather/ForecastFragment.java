@@ -26,7 +26,7 @@ public class ForecastFragment extends Fragment {
 
     private static final String days[] = {"Mon", "Tue", "Thus", "Wed", "Fri", "Sat", "Sun"};
 
-        private static int[] imageArray = {
+    private static int[] imageArray = {
             R.drawable.bitcloudy,
             R.drawable.bitsnow,
             R.drawable.cloudy,
@@ -60,27 +60,27 @@ public class ForecastFragment extends Fragment {
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @NonNull ViewGroup container, @NonNull Bundle savedInstanceState) {
-        ViewGroup v = (ViewGroup) inflater.inflate(R.layout.fragment_forecast, container, false);
-        LinearLayout rowContainer = v.findViewById(R.id.row_container);
-        Random r = new Random();
-
-
-
-        for (int i = 0; i < 14; i++) {
-            View row = inflater.inflate(R.layout.weather_row, null);
-            ((TextView) row.findViewById(R.id.weater_row_id)).setText(days[i % 7]);
-
-            String tempRange = (10 + r.nextInt() %10) +"-"+ (20 + r.nextInt() %10);
-            ((TextView) row.findViewById(R.id.temp)).setText(tempRange);
-
-            int input = r.nextInt(imageArray.length);
-            ((ImageView) row.findViewById(R.id.image_id)).setImageResource(imageArray[input]);
-
-            ((TextView) row.findViewById(R.id.weather_mood)).setText(weather[input]);
-
-            rowContainer.addView(row);
-
-        }
-        return v;
+        return inflater.inflate(R.layout.fragment_forecast, container, false);
+//        ViewGroup v = (ViewGroup) inflater.inflate(R.layout.fragment_forecast, container, false);
+//        LinearLayout rowContainer = v.findViewById(R.id.row_container);
+//
+//        Random r = new Random();
+//
+//        for (int i = 0; i < 14; i++) {
+//            View row = inflater.inflate(R.layout.weather_row, null);
+//            ((TextView) row.findViewById(R.id.weater_row_id)).setText(days[i % 7]);
+//
+//            String tempRange = (10 + r.nextInt() %10) +"-"+ (20 + r.nextInt() %10);
+//            ((TextView) row.findViewById(R.id.temp)).setText(tempRange);
+//
+//            int input = r.nextInt(imageArray.length);
+//            ((ImageView) row.findViewById(R.id.image_id)).setImageResource(imageArray[input]);
+//
+//            ((TextView) row.findViewById(R.id.weather_mood)).setText(weather[input]);
+//
+//            rowContainer.addView(row);
+//
+//        }
+//        return v;
     }
 }
