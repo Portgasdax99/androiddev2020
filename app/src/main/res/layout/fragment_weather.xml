@@ -4,11 +4,12 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     tools:context=".WeatherFragment"
-    android:background="#B9EEB9">
+    android:background="#FFFDE4">
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/current_weather"
+        android:gravity="center_vertical"
         android:layout_alignParentLeft="true"/>
     <ImageView
         android:layout_width="150dp"

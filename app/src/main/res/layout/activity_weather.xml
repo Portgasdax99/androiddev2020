@@ -6,18 +6,20 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="#5D6D7E "
+    android:background="@drawable/gradient"
     tools:context=".WeatherActivity">
     
     <fragment
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:name="vn.edu.usth.weather.WeatherFragment"
-        android:layout_margin="16dp"
+        android:layout_margin="14dp"
         android:layout_marginBottom="0dp"/>
     <fragment
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_margin="14dp"
+        android:layout_marginBottom="0dp"
         android:name="vn.edu.usth.weather.ForecastFragment"/>
 
 </LinearLayout>
