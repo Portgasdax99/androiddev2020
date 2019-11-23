@@ -17,7 +17,7 @@ import android.view.ViewGroup;
 
 public class HomeFragmentPagerAdapter extends  FragmentPagerAdapter{
     private final int Page_count =3;
-    private String[] title = new String[]{"Praha","Paris"."Berlin"};
+    private String[] title = new String[]{"Praha","Paris","Berlin"};
 
     protected HomeFragmentPagerAdapter(FragmentManager fm){
         super(fm);
@@ -33,8 +33,8 @@ public class HomeFragmentPagerAdapter extends  FragmentPagerAdapter{
         switch (page){
             case 0: //Fragment # 0 - This will show FirstFragment
                 return WeatherAndForecastFragment.newInstance(0, "Page #0");
-                return WeatherAndForecastFragment.newInstance(1, "Page #1");
-                return WeatherAndForecastFragment.newInstance(2, "Page #2");
+             case 1: return WeatherAndForecastFragment.newInstance(1, "Page #1");
+             case 2:   return WeatherAndForecastFragment.newInstance(2, "Page #2");
                 default: return  null;
         }
     }
@@ -42,6 +42,6 @@ public class HomeFragmentPagerAdapter extends  FragmentPagerAdapter{
     @Nullable
     @Override
     public CharSequence getPageTitle(int position){
-        return title(position);
+        return title[position];
     }
 }
