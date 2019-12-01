@@ -50,6 +50,8 @@ public class WeatherAndForecastFragment extends Fragment {
 
     private static final String days[] = {"Mon", "Tue", "Thus", "Wed", "Fri", "Sat", "Sun"};
 
+    private static final String Country[] = {"Praha","Paris","Berlin"};
+
     private static int[] imageArray = {
             R.drawable.bitcloudy,
             R.drawable.bitsnow,
@@ -108,6 +110,9 @@ public class WeatherAndForecastFragment extends Fragment {
             rowContainer.addView(row);
 
         }
+        View row = inflater.inflate(R.layout.country, null);
+        ((TextView)row.findViewById(R.id.weater_row_id)).setText(days[i % 7]);
+
         return v;
     }
 }

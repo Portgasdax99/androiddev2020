@@ -31,11 +31,15 @@ public class HomeFragmentPagerAdapter extends  FragmentPagerAdapter{
     @Override
     public Fragment getItem(int page){
         switch (page){
-            case 0: //Fragment # 0 - This will show FirstFragment
-                return WeatherAndForecastFragment.newInstance(0, "Page #0");
-             case 1: return WeatherAndForecastFragment.newInstance(1, "Page #1");
-             case 2:   return WeatherAndForecastFragment.newInstance(2, "Page #2");
-                default: return  null;
+                case 0: //Fragment # 0 - This will show FirstFragment
+                    return WeatherAndForecastFragment.newInstance(0, "Page #0");
+                case 1:
+                    return WeatherAndForecastFragment.newInstance(1, "Page #1");
+                case 2:
+                    return WeatherAndForecastFragment.newInstance(2, "Page #2");
+
+                default:
+                    return  null;
         }
     }
     // Returns the page title for the top indicator
