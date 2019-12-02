@@ -2,10 +2,10 @@
     <string name="app_name">USTH Weahter</string>
 
     <!-- TODO: Remove or change this placeholder text -->
-    <string name="Monday">Monday</string>
-    <string name="Sunny">Sunny</string>
+    <string name="Monday">Thứ Hai</string>
+    <string name="Sunny">Trời Nắng</string>
     <string name="T_6_12">6-12</string>
-    <string name="Cloudy">Cloudy</string>
+    <string name="Cloudy">Mây</string>
     <string name="weather_icon">Weather Icon</string>
 
     <!-- TODO: Remove or change this placeholder text -->

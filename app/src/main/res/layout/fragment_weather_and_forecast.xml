@@ -44,208 +44,219 @@
         android:id="@+id/fragment_forecast">
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/row_container"
+            android:layout_height="48dp"
             android:orientation="vertical">
-            <TextView
-                android:text="@string/Monday"
-                android:layout_width="100dp"
-                android:layout_height="match_parent"
-                android:gravity="center"/>
-
-            <ImageView
-                android:layout_width="48dp"
-                android:layout_height="48dp"
-                android:src="@drawable/cloudy" />
-
             <LinearLayout
-                android:layout_width="0dp"
-                android:layout_height="48dp"
-                android:layout_weight="1"
-                android:orientation="vertical">
-
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginBottom="10dp">
                 <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="24dp"
-                    android:gravity="center_vertical"
-                    android:text="@string/Cloudy"/>
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="24dp"
-                    android:gravity="center_vertical"
-                    android:text="@string/T_6_12" />
+                    android:text="@string/Monday"
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center"/>
+                <ImageView
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:src="@drawable/cloudy" />
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:text="@string/Sunny"
+                        android:layout_width="100dp"
+                        android:layout_height="24dp"
+                        android:gravity="center"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="24dp"
+                        android:text="@string/T_6_12"
+                        android:layout_gravity="center"/>
+                </LinearLayout>
             </LinearLayout>
-            <TextView
-                android:text="@string/Monday"
-                android:layout_width="100dp"
-                android:layout_height="match_parent"
-                android:gravity="center"/>
-
-            <ImageView
-                android:layout_width="48dp"
-                android:layout_height="48dp"
-                android:src="@drawable/cloudy" />
-
             <LinearLayout
-                android:layout_width="0dp"
-                android:layout_height="48dp"
-                android:layout_weight="1"
-                android:orientation="vertical">
-
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginBottom="10dp">
                 <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="24dp"
-                    android:gravity="center_vertical"
-                    android:text="@string/Cloudy"/>
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="24dp"
-                    android:gravity="center_vertical"
-                    android:text="@string/T_6_12" />
+                    android:text="@string/Monday"
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center"/>
+                <ImageView
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:src="@drawable/cloudy" />
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:text="@string/Sunny"
+                        android:layout_width="100dp"
+                        android:layout_height="24dp"
+                        android:gravity="center"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="24dp"
+                        android:text="@string/T_6_12"
+                        android:layout_gravity="center"/>
+                </LinearLayout>
             </LinearLayout>
-            <TextView
-                android:text="@string/Monday"
-                android:layout_width="100dp"
-                android:layout_height="match_parent"
-                android:gravity="center"/>
-
-            <ImageView
-                android:layout_width="48dp"
-                android:layout_height="48dp"
-                android:src="@drawable/cloudy" />
-
             <LinearLayout
-                android:layout_width="0dp"
-                android:layout_height="48dp"
-                android:layout_weight="1"
-                android:orientation="vertical">
-
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginBottom="10dp">
                 <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="24dp"
-                    android:gravity="center_vertical"
-                    android:text="@string/Cloudy"/>
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="24dp"
-                    android:gravity="center_vertical"
-                    android:text="@string/T_6_12" />
+                    android:text="@string/Monday"
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center"/>
+                <ImageView
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:src="@drawable/cloudy" />
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:text="@string/Sunny"
+                        android:layout_width="100dp"
+                        android:layout_height="24dp"
+                        android:gravity="center"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="24dp"
+                        android:text="@string/T_6_12"
+                        android:layout_gravity="center"/>
+                </LinearLayout>
             </LinearLayout>
-            <TextView
-                android:text="@string/Monday"
-                android:layout_width="100dp"
-                android:layout_height="match_parent"
-                android:gravity="center"/>
-
-            <ImageView
-                android:layout_width="48dp"
-                android:layout_height="48dp"
-                android:src="@drawable/cloudy" />
-
             <LinearLayout
-                android:layout_width="0dp"
-                android:layout_height="48dp"
-                android:layout_weight="1"
-                android:orientation="vertical">
-
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginBottom="10dp">
                 <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="24dp"
-                    android:gravity="center_vertical"
-                    android:text="@string/Cloudy"/>
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="24dp"
-                    android:gravity="center_vertical"
-                    android:text="@string/T_6_12" />
+                    android:text="@string/Monday"
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center"/>
+                <ImageView
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:src="@drawable/cloudy" />
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:text="@string/Sunny"
+                        android:layout_width="100dp"
+                        android:layout_height="24dp"
+                        android:gravity="center"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="24dp"
+                        android:text="@string/T_6_12"
+                        android:layout_gravity="center"/>
+                </LinearLayout>
             </LinearLayout>
-            <TextView
-                android:text="@string/Monday"
-                android:layout_width="100dp"
-                android:layout_height="match_parent"
-                android:gravity="center"/>
-
-            <ImageView
-                android:layout_width="48dp"
-                android:layout_height="48dp"
-                android:src="@drawable/cloudy" />
-
             <LinearLayout
-                android:layout_width="0dp"
-                android:layout_height="48dp"
-                android:layout_weight="1"
-                android:orientation="vertical">
-
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginBottom="10dp">
                 <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="24dp"
-                    android:gravity="center_vertical"
-                    android:text="@string/Cloudy"/>
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="24dp"
-                    android:gravity="center_vertical"
-                    android:text="@string/T_6_12" />
+                    android:text="@string/Monday"
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center"/>
+                <ImageView
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:src="@drawable/cloudy" />
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:text="@string/Sunny"
+                        android:layout_width="100dp"
+                        android:layout_height="24dp"
+                        android:gravity="center"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="24dp"
+                        android:text="@string/T_6_12"
+                        android:layout_gravity="center"/>
+                </LinearLayout>
             </LinearLayout>
-            <TextView
-                android:text="@string/Monday"
-                android:layout_width="100dp"
-                android:layout_height="match_parent"
-                android:gravity="center"/>
-
-            <ImageView
-                android:layout_width="48dp"
-                android:layout_height="48dp"
-                android:src="@drawable/cloudy" />
-
             <LinearLayout
-                android:layout_width="0dp"
-                android:layout_height="48dp"
-                android:layout_weight="1"
-                android:orientation="vertical">
-
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginBottom="10dp">
                 <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="24dp"
-                    android:gravity="center_vertical"
-                    android:text="@string/Cloudy"/>
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="24dp"
-                    android:gravity="center_vertical"
-                    android:text="@string/T_6_12" />
+                    android:text="@string/Monday"
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center"/>
+                <ImageView
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:src="@drawable/cloudy" />
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:text="@string/Sunny"
+                        android:layout_width="100dp"
+                        android:layout_height="24dp"
+                        android:gravity="center"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="24dp"
+                        android:text="@string/T_6_12"
+                        android:layout_gravity="center"/>
+                </LinearLayout>
             </LinearLayout>
-            <TextView
-                android:text="@string/Monday"
-                android:layout_width="100dp"
-                android:layout_height="match_parent"
-                android:gravity="center"/>
-
-            <ImageView
-                android:layout_width="48dp"
-                android:layout_height="48dp"
-                android:src="@drawable/cloudy" />
-
             <LinearLayout
-                android:layout_width="0dp"
-                android:layout_height="48dp"
-                android:layout_weight="1"
-                android:orientation="vertical">
-
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginBottom="10dp">
                 <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="24dp"
-                    android:gravity="center_vertical"
-                    android:text="@string/Cloudy"/>
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="24dp"
-                    android:gravity="center_vertical"
-                    android:text="@string/T_6_12" />
+                    android:text="@string/Monday"
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center"/>
+                <ImageView
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:src="@drawable/cloudy" />
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:text="@string/Sunny"
+                        android:layout_width="100dp"
+                        android:layout_height="24dp"
+                        android:gravity="center"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="24dp"
+                        android:text="@string/T_6_12"
+                        android:layout_gravity="center"/>
+                </LinearLayout>
             </LinearLayout>
 
         </LinearLayout>
     </ScrollView>
-
-
 </LinearLayout>
