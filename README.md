@@ -7,3 +7,4 @@ Push your commits regularly, with proper commit messages
 Student Info
 Name: Nguyen Duy Anh
 ID: BI8-012
+GROUP: 6
