@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     tools:context=".WeatherActivity"
-    android:background="#FFFDE4">
+    android:background="@drawable/frame">
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

@@ -14,17 +14,19 @@
         tools:context=".WeatherFragment"
         android:layout_marginTop="1dp"
         android:layout_margin="10dp"
-        android:background="#FFFDE4"
+        android:background="@drawable/frame"
         android:id="@+id/weather_container">
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="8dp"
             android:text="@string/Sunny"
             android:gravity="center_vertical"
             android:layout_alignParentLeft="true"/>
         <ImageView
-            android:layout_width="150dp"
-            android:layout_height="150dp"
+            android:layout_width="140dp"
+            android:layout_height="140dp"
             android:layout_centerInParent="true"
             android:src="@drawable/sunny"/>
         <TextView
