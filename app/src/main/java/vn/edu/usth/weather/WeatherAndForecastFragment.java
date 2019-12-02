@@ -110,8 +110,6 @@ public class WeatherAndForecastFragment extends Fragment {
             rowContainer.addView(row);
 
         }
-        View row = inflater.inflate(R.layout.country, null);
-        ((TextView)row.findViewById(R.id.weater_row_id)).setText(days[i % 7]);
 
         return v;
     }
