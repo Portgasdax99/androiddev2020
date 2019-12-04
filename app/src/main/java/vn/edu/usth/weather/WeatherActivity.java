@@ -2,10 +2,15 @@ package vn.edu.usth.weather;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.media.MediaPlayer;
 import android.os.Bundle;
+import android.provider.MediaStore;
 import android.util.Log;
 import android.view.View;
 import android.widget.TableLayout;
+import android.content.Context;
+import android.media.MediaPlayer;
+import java.io.FileInputStream;
 
 import androidx.viewpager.widget.ViewPager;
 
@@ -31,6 +36,9 @@ public class WeatherActivity extends AppCompatActivity {
         // Give the TabLayout the ViewPager
         TabLayout tabLayout = findViewById(R.id.tab_layout);
         tabLayout.setupWithViewPager(viewPager);
+
+        MediaPlayer mediaPlayer = MediaPlayer.create(WeatherActivity.this, R.raw.audio);
+        mediaPlayer.start();
 
     }
 
